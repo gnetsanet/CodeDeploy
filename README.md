@@ -1,6 +1,13 @@
 # CodeDeploy
 
- 
+Automatically deploy applications to on-premise compute platforms, EC2, Amazon ECS or AWS Lambda.
+
+
+Create a deployment group to define configuration options such as 
+    - what type of deployment to perform, In-place vs. Blue/green.
+    - whether to deploy directly to instances or auto-scaling groups.
+    - how fast you want an application to be deployed.
+    - whether you would like a load balancer to manage traffic to and from your instance during deployment.
 ```
 sudo yum update
 sudo yum install ruby
