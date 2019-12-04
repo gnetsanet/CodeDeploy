@@ -34,3 +34,9 @@ Make sure AWS CodeDeploy agent is installed and running on the instance you want
 [ec2-user@ip-172-31-25-88 ~]$ sudo service codedeploy-agent status
 The AWS CodeDeploy agent is running as PID 12413
 ```
+
+## Other considerations
+
+- If revision location is S3, the bucket containing the application should be in the same region as the resources/deployment group. 
+
+## Successful Deployment
