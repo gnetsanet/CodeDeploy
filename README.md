@@ -11,8 +11,12 @@ Create a deployment group to define configuration options such as
     
 ## Requirements
 
-- IAM role for EC2 to access S3
+- IAM role for EC2 to access S3 ( I do think this is needed if you revision location is Github - i.e. application is stored in Github )
+
+
 - IAM role for CodeDeploy to access and interact with EC2
+
+
 
 ```
 sudo yum update
