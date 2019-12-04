@@ -13,7 +13,7 @@ Create a deployment group to define configuration options such as
 
 - IAM role for EC2 to access S3 ( I do think this is needed if you revision location is Github - i.e. application is stored in Github )
 
-![](https://github.com/gnetsanet/nf-CellRanger/blob/master/images/compute_environment2.png)
+![](https://github.com/gnetsanet/CodeDeploy/blob/master/images/EC2S3Role.png)
 
 - IAM role for CodeDeploy to access and interact with EC2
 
