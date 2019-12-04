@@ -17,7 +17,7 @@ Create a deployment group to define configuration options such as
 
 - IAM role for CodeDeploy to access and interact with EC2
 
-![](https://github.com/gnetsanet/nf-CellRanger/blob/master/images/compute_environment2.png)
+![](https://github.com/gnetsanet/CodeDeploy/blob/master/images/CodeDeployRole.png)
 
 
 ```
