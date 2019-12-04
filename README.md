@@ -43,4 +43,4 @@ The AWS CodeDeploy agent is running as PID 12413
 
 ## Successful Deployment
 
-![](https://github.com/gnetsanet/nf-CellRanger/blob/master/images/compute_environment2.png)
+![](https://github.com/gnetsanet/CodeDeploy/blob/master/images/successful_deployment.png)
